@@ -31,9 +31,9 @@
 		1131400A5F1DF3713877A430 /* Pods-MyCocoapodsLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Example/Pods-MyCocoapodsLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		13BAEB6B794E3F390D0E3DEC /* Pods_MyCocoapodsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoapodsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		163F9F263C56A4D10A62A348 /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Tests/Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		209DC83E5CEED167546728A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2AE8515DBA1EB668653EB2BB /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; };
-		4B3D15D9726E883E6D877632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		209DC83E5CEED167546728A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2AE8515DBA1EB668653EB2BB /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B3D15D9726E883E6D877632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyCocoapodsLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCocoapodsLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				B97B18E6D1E2BA697CAAC7F8 /* Pods-MyCocoapodsLibrary_Tests.debug.xcconfig */,
 				163F9F263C56A4D10A62A348 /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
